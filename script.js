@@ -10,6 +10,11 @@ btn = document.querySelector("button").addEventListener("click", () => {
   for (let i = 0; i < quotes.length; i++) {
     p.innerText = ` ${quotes[randomQuote].text},  "${quotes[randomQuote].author}"  `;
   }
+  if (quotes[randomQuote].author === null) {
+    p.innerText = ` ${quotes[randomQuote].text},  "${(quotes[
+      randomQuote
+    ].author = " the Author of this quote is unknow")}"  `;
+  }
   let color = (document.querySelector(
     ".quote-par"
   ).style.backgroundColor = colorGenerator());
