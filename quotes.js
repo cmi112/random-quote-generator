@@ -9,6 +9,11 @@ const quotes = [
     author: "Yogi Berra",
   },
   {
+    text: "You have managed to set a tent, and a beautiful fire pit inside my head. Even within the darkness of my room and on the coolness of my sheets, the echos of your voice kept me warm in my mind. I fell asleep smilling, and woke to fajr smilling Alhmdulilah",
+    author:"Ilwaad Khayr-Wadaag",
+  }
+  ,
+  {
     text: "A house divided against itself cannot stand.",
     author: "Abraham Lincoln",
   },
